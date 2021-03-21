@@ -1,0 +1,89 @@
+
+<div>
+  <div style="text-align: center" >
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>Quantidade por estado</h3>
+      </div>
+      <canvas baseChart
+              [data]="porEstadoData"
+              [labels]="porEstadoLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>Quantidade por faixa etária</h3>
+      </div>
+      <canvas baseChart
+              [data]="porFaixaEtariaData"
+              [labels]="porFaixaEtariaLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>% homens obesos</h3>
+      </div>
+      <canvas baseChart
+              [data]="obesosMasculinoData"
+              [labels]="obesosMasculinoLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>% mulheres obesas</h3>
+      </div>
+      <canvas baseChart
+              [data]="obesosFemininoData"
+              [labels]="obesosFemininoLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>Quantidade por tipo sanguíneo</h3>
+      </div>
+      <canvas baseChart
+              [data]="porTipoSanguineoData"
+              [labels]="porTipoSanguineoLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+    <div class="chart" >
+      <div style="text-align: center" >
+        <h3>Quantidade de possíveis doadores</h3>
+      </div>
+      <canvas baseChart
+              [data]="porPossivelDoadorData"
+              [labels]="porPossivelDoadorLabels"
+              [chartType]="pieChartType"
+              [options]="pieChartOptions"
+              [plugins]="pieChartPlugins"
+              [legend]="pieChartLegend">
+      </canvas>
+    </div>
+
+  </div>
+</div>

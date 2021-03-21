@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>WK - Doadores</span>
+  <span class="spacer" ></span>
+  <button mat-flat-button color="primary" [routerLink]="['/doadores/upload']" >
+    <mat-icon>upload</mat-icon> Upload
+  </button>
+  <button mat-flat-button color="primary" [routerLink]="['/doadores/consulta']">
+    <mat-icon>search</mat-icon> Consulta
+  </button>
+</mat-toolbar>
+<mat-progress-bar mode="indeterminate" color="warn" *ngIf="loading"></mat-progress-bar>
+
+<router-outlet></router-outlet>

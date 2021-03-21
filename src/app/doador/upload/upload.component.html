@@ -1,0 +1,25 @@
+<div class="main-div">
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Envio de Dados</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p>
+        <br/>
+        Envie o arquivo JSON com os dados de doadores, usando o formulário abaixo
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <mat-form-field>
+        <ngx-mat-file-input placeholder="Selecione o Arquivo"
+                            (change)="onChange($event.target.files)"></ngx-mat-file-input>
+        <mat-icon matSuffix>folder</mat-icon>
+      </mat-form-field>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
+

@@ -1,0 +1,18 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://icon-library.com/images/json-file-icon/json-file-icon-1.jpg');
+  background-size: cover;
+}
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  width: 100%;
+}
